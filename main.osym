@@ -1,0 +1,35 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+C1OUT
+C2OUT
+
+Project Directory:
+    C:\Users\e882742\Documents\UTCH\Estadias\Codigo\Prototype 1.0\
+
+Project Files:
+    main.c
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+    PCD8544.h
+
+Units:
+    C:\Users\e882742\Documents\UTCH\Estadias\Codigo\Prototype 1.0\main (main)
+
+Compiler Settings:
+    Processor:      PIC18F2550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Output file:    Relocatable
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    Object:      main.o
+    Symbols:     main.osym

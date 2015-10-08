@@ -1,0 +1,137 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 strtok.save
+006-009 _Randseed
+00A-00B cursor_x
+00C-00D cursor_y
+00E-205 pcd8544_buffer
+206     x
+207-208 PCD_display.col
+207-208 PCD_clearDisplay.i
+207     PCD_setContrast.val
+207     @PSTRINGCN_92.P1
+207     @PRINTF_D_92.P2
+207-208 PCD_setCursor.x
+207     PCD_begin.contrast
+207     MAIN.@SCRATCH1
+207     @PSTRINGC_92.@SCRATCH1
+208     PCD_begin.bias
+208     @PRINTF_D_92.P1
+208     PCD_setContrast.@SCRATCH1
+208     @PSTRINGC_92.@SCRATCH2
+208     @PSTRINGCN_92.@SCRATCH1
+209     @delay_ms1.P1
+209-20A PCD_display.maxcol
+209-20A PCD_setCursor.y
+209     PCD_begin.@SCRATCH1
+209     PCD_clearDisplay.@SCRATCH1
+209     @PSTRINGCN_92.@SCRATCH2
+209     @PRINTF_D_92.@SCRATCH1
+20A     PCD_clearDisplay.@SCRATCH2
+20A     @PRINTF_D_92.@SCRATCH2
+20B-20C PCD_display.p
+20B     @PRINTF_D_92.@SCRATCH3
+20C     @PRINTF_D_92.@SCRATCH4
+20D     PCD_drawChart.c
+20D     @DIV88.P1
+20D     PCD_display.@SCRATCH1
+20E     @DIV88.P1
+20E-20F PCD_drawChart.i
+20E     PCD_display.@SCRATCH2
+20F     PCD_command.c
+20F     @DIV88.@SCRATCH1
+210     PCD_spiWrite.d
+210-211 PCD_drawChart.font_index
+211     PCD_spiWrite.vbit
+212     PCD_drawChart.@SCRATCH1
+213     PCD_drawChart.@SCRATCH2
+214-215 @MUL1616.P1
+214     PCD_drawChart.@SCRATCH3
+215     PCD_drawChart.@SCRATCH4
+216-217 @MUL1616.P1
+218     @MUL1616.@SCRATCH1
+F93     TRISB
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0540  @delay_ms1
+0004  font
+05A8  PCD_begin
+0594  PCD_command
+0602  PCD_setContrast
+0704  PCD_clearDisplay
+0654  PCD_display
+0632  @MUL1616
+0568  PCD_spiWrite
+0746  PCD_drawChart
+0734  PCD_setCursor
+099C  MAIN
+0512  @const382
+0846  @PSTRINGC_92
+051C  @const384
+0866  @PSTRINGCN_92
+0890  @DIV88
+08BC  @PRINTF_D_92
+0526  @const393
+0532  @const394
+099C  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\e882742\Documents\UTCH\Estadias\Codigo\Prototype 1.0\
+
+Project Files:
+    main.c
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+    PCD8544.c
+    PCD8544.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    C:\Users\e882742\Documents\UTCH\Estadias\Codigo\Prototype 1.0\main (main)
+
+Compiler Settings:
+    Processor:      PIC18F2550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta
