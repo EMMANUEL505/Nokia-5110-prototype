@@ -1,2 +1,4 @@
-      Memory usage:   ROM=12%      RAM=25% - 26%
-      0 Errors,  0 Warnings.
+>>> Warning 216 "main.c" Line 85(0,1): Interrupts disabled during call to prevent re-entrancy:  (@PSTRINGR_115200_31766_31767)
+>>> Warning 202 "main.c" Line 6(5,8): Variable never used:   rs232_errors
+      Memory usage:   ROM=14%      RAM=31% - 32%
+      0 Errors,  2 Warnings.

@@ -1,7 +1,7 @@
 D G "__PCH__" 0 0 ""4.104""
 D G "__DEVICE__" 0 0 ""
-D G "__DATE__" 0 0 ""07-Oct-15""
-D G "__TIME__" 0 0 ""20:04:06"" "Standard Header file for the PIC18F2550 device ////////////////"
+D G "__DATE__" 0 0 ""12-Oct-15""
+D G "__TIME__" 0 0 ""17:28:10"" "Standard Header file for the PIC18F2550 device ////////////////"
 d G "PIN_A0" 1 27 "31744"
 d G "PIN_A1" 1 28 "31745"
 d G "PIN_A2" 1 29 "31746"
@@ -755,8 +755,20 @@ C L "PCD_drawChart" 2 174 1 "FUNCTION"
 F G "PCD_setCursor" 2 404 "void()"
 V L "x" 2 404 "uint16_t"
 V L "y" 2 404 "uint16_t"
-V G "x" 0 8 "int8"
-F G "MAIN" 0 9 "void(uint16_t y)"
+V G "InputBuffer" 0 10 "int8[85]"
+V G "option" 0 11 "int8"
+V G "i" 0 11 "int8"
+F G "isr" 0 14 "void()"
+V L "index" 0 16 "int16"
+V L "c" 0 17 "int8"
+C L "isr" 0 21 1 "FUNCTION"
+C L "isr" 0 21 1 "FUNCTION"
+F G "MAIN" 0 35 "void()"
+C L "MAIN" 0 21 1 "FUNCTION"
+C L "MAIN" 0 21 1 "FUNCTION"
+C L "MAIN" 0 21 2 "FUNCTION"
+C L "MAIN" 0 21 4 "FUNCTION"
+C L "MAIN" 0 21 2 "FUNCTION"
 F B "reset_cpu" 0 0
 F B "abs" 1 0
 F B "sleep" 0 0
@@ -880,3 +892,10 @@ F B "spi_data_is_in2" 0 0
 F B "brownout_enable" 1 0
 F B "delay_ms" 1 0
 F B "delay_us" 1 0
+F B "putchar" 1 2
+F B "puts" 1 2
+F B "getch" 0 1
+F B "gets" 1 3
+F B "kbhit" 0 1
+F B "set_uart_speed" 1 3
+F B "setup_uart" 1 3

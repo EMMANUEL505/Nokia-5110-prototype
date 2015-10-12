@@ -5,7 +5,7 @@ Version=1.0
 Location=main.ESYM
 Folder=Intermediary
 [File001]
-Location=C:\Users\e882742\Documents\UTCH\Estadias\Codigo\Prototype 1.0\main.o
+Location=C:\Users\e882742\Documents\UTCH\Estadias\Codigo\Nokia-5110-prototype\main.o
 Folder=Intermediary
 [File002]
 Location=main.HEX
